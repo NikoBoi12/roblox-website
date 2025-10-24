@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="#home" class="logo">
+            <!--<img src="https://ucomm.unl.edu/sites/unl.edu.university-communication/files/styles/no_crop_720/public/media/image/nebraska-n.jpg?itok=4Vj3-oUs" width="50" height="50">-->
+        </a>
+        
+        <nav>
+            <ul>
+                <li><a class="button" href="#home">Home</a></li>
+                <li><a class="button" href="#games">Games</a></li>
+                <li><a class="button" href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>      
+            Live Stats!
+        </h1>
+        <ul class="gamestats">
+            <li id="liveccu">
+                <img class="gamestatsicon" src="https://files.catbox.moe/jj9hmd.png" width="35" height="35">
+                <h2>Current ccu: <span id="ccu-display"></span></h2>
+            </li>
+            <li id="livevisits">
+                <img class="gamestatsicon" src="https://files.catbox.moe/jj9hmd.png" width="35" height="35">
+                <h2>Total Visits: <span id="visit-display"></span></h2>
+            </li>
+            <li id="mothlyactive">
+                <img class="gamestatsicon" src="https://files.catbox.moe/jj9hmd.png" width="35" height="35">
+                <h2>Over a million hours of playtime!</h2>
+            </li>
+        </ul>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
