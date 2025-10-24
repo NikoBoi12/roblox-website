@@ -4,9 +4,7 @@ This project is a lightweight, full-stack application designed to display real-t
 
 It uses a Node.js backend to periodically fetch player counts and total visits from the Roblox Games API, stores them in memory, and serves them via a simple REST API. The frontend is a vanilla HTML/CSS/JavaScript page that fetches this data and displays it to users.
 
-This project currently tracks stats for the **Project Souls** universes:
-* [Game 1 (ID: 6037884519)](https://www.roblox.com/games/6037884519/YOUR-GAME-1-NAME-HERE)
-* [Game 2 (ID: 8032621473)](https://www.roblox.com/games/8032621473/YOUR-GAME-2-NAME-HERE)
+This project currently tracks stats for the **Project Souls** universes!
 
 ---
 
