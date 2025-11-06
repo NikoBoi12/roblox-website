@@ -6,6 +6,8 @@ It uses a Node.js backend to periodically fetch player counts and total visits f
 
 This project currently tracks stats for the **Project Souls** universes!
 
+This is SUPER W.I.P 
+
 ---
 
 ## Features
@@ -36,45 +38,6 @@ This project currently tracks stats for the **Project Souls** universes!
 * **Modules:** ES6 Modules (`import`/`export`)
 * **API:** Roblox Games API
 
----
-
-## Setup and Installation
-
-To run this project locally, you will need [Node.js](https://nodejs.org/) installed.
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
-    cd your-repository-name
-    ```
-
-2.  **Initialize npm and `package.json`:**
-    Since this project uses ES Modules, you need a `package.json` file.
-    ```bash
-    npm init -y
-    ```
-
-3.  **Enable ES Modules:**
-    Open the new `package.json` file and add this line at the top level:
-    ```json
-    "type": "module",
-    ```
-
-4.  **Install dependencies:**
-    ```bash
-    npm install express cors
-    ```
-
-5.  **Run the server:**
-    ```bash
-    node server.js
-    ```
-    Your server should now be running at `http://localhost:5500`.
-
-6.  **View the frontend:**
-    Open the `index.html` file (or equivalent) in your web browser. The stats should appear and update automatically.
-
----
 
 ## API Endpoints
 
